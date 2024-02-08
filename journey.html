@@ -31,9 +31,9 @@
     basemap: "arcgis-topographic" // basemap styles service
   });
 
-  const view = new MapView({
+  const view = new MapView({ 
     map: map,
-    center: [-124.674429,27.498912], //Longitude, latitude
+    center: [-106.158665, 21.1976035], //Longitude, latitude
     zoom: 4,
     container: "viewDiv"
  });
@@ -48,7 +48,7 @@
  };
  const simpleMarkerSymbol = {
     type: "simple-marker",
-    color: [226, 119, 40],  // Orange
+    color: [25,69,10],
     outline: {
         color: [255, 255, 255], // White
         width: 1
@@ -72,8 +72,8 @@
  };
  const simpleLineSymbol = {
     type: "simple-line",
-    color: [226, 119, 40], // Orange
-    width: 2
+    color: [69, 69, 10], // blue
+    width: 3
  };
 
  const polylineGraphic = new Graphic({
@@ -89,14 +89,16 @@
         [-118.4027062, 33.9480553], //Longitude, latitude
         [-155.4219859, 19.59539857], //Longitude, latitude
         [-74.1474707, 4.71174276], //Longitude, latitude
+      //   [-118.79596686535, 34.008564864635],   //Longitude, latitude
+      //   [-118.808558110679, 34.0035027131376]  //Longitude, latitude
     ]
  };
 
  const simpleFillSymbol = {
     type: "simple-fill",
-    color: [227, 139, 79, 0.8],  // Orange, opacity 80%
+    color: [192, 192, 192, 0.8],  // Orange, opacity 80%
     outline: {
-        color: [255, 255, 255],
+        color: [69, 69, 255],
         width: 1
     }
  };
