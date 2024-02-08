@@ -33,7 +33,7 @@
 
   const view = new MapView({ 
     map: map,
-    center: [-106.158665, 21.1976035], //Longitude, latitude
+    center: [-106.158665, 21.1976035], // modified Longitude, latitude 
     zoom: 4,
     container: "viewDiv"
  });
@@ -41,16 +41,16 @@
  const graphicsLayer = new GraphicsLayer();
  map.add(graphicsLayer);
 
- const point = { //Create a point
+ const point = { //Create a point (modified)
     type: "point",
     longitude: -118.4027062,
     latitude: 33.9480553,
  };
  const simpleMarkerSymbol = {
     type: "simple-marker",
-    color: [25,69,10],
+    color: [25,69,10], //blue
     outline: {
-        color: [255, 255, 255], // White
+        color: [255, 255, 255], // White 
         width: 1
     }
  };
@@ -61,18 +61,18 @@
  });
  graphicsLayer.add(pointGraphic);
 
- // Create a line geometry
+ // Create a line geometry and longitude and latitude are modified
  const polyline = {
     type: "polyline",
     paths: [
-             [-118.4027062, 33.9480553], //Longitude, latitude
-             [-155.4219859, 19.59539857],
+             [-118.4027062, 33.9480553], //Longitude, latitude 
+             [-155.4219859, 19.59539857], //Longitude, latitude
              [-74.1474707, 4.71174276]  //Longitude, latitude
     ]
  };
  const simpleLineSymbol = {
     type: "simple-line",
-    color: [69, 69, 10], // blue
+    color: [69, 69, 10], // blue which is modified
     width: 3
  };
 
@@ -96,9 +96,9 @@
 
  const simpleFillSymbol = {
     type: "simple-fill",
-    color: [192, 192, 192, 0.8],  // Orange, opacity 80%
+    color: [192, 192, 192, 0.8],  // greyish, opacity 80%
     outline: {
-        color: [69, 69, 255],
+        color: [69, 69, 255], // blue which is modified
         width: 1
     }
  };
@@ -108,8 +108,8 @@
     content: "{Description}"
  }
  const attributes = {
-    Name: "Graphic",
-    Description: "I am a polygon"
+    Name: "My Journey of Hawai",
+    Description: "Los Angeles ----- Hawai ---- Colombia" // modified
  }
 
  const polygonGraphic = new Graphic({
