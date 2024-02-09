@@ -19,7 +19,7 @@ With some topography.
 Actual Results: Map visible but no topography (base map not visible).
  
 Actual Results 
-( Results.jpg )
+![Results][Results.jpg] 
 
 
 Environment details: Using Google chrome browser Windows 10 – Operating system with i7 processor; Software used – Visual Studio Code, GitHub.
@@ -28,7 +28,7 @@ Affecting Environment: Problem occurs on most of the devices, to the fair number
 
 Console: 
 (Console.jpg)
- 
+![Console Error]{Console.jpg] 
 
 
 
