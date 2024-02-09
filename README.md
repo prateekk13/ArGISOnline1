@@ -1,8 +1,8 @@
 BUG REPORT = 
 API Key was successfully created but the map was not opening 
 When I went to the ArcGIS developer’s website, I created a new API key 
-(API.jpg)
-![API][API.jpg]
+
+![API](API.jpg)
  
 Steps to produce- 
 1.	Login to ArcGIS developer’s website
@@ -17,9 +17,11 @@ You should get a map with a background centered to a place with some latitude an
 With some topography. 
 
 Actual Results: Map visible but no topography (base map not visible).
+
+![Results](Results.jpg)
  
 Actual Results 
-![Results][Results.jpg] 
+
 
 
 Environment details: Using Google chrome browser Windows 10 – Operating system with i7 processor; Software used – Visual Studio Code, GitHub.
@@ -27,8 +29,8 @@ Environment details: Using Google chrome browser Windows 10 – Operating system
 Affecting Environment: Problem occurs on most of the devices, to the fair number of students. 
 
 Console: 
-(Console.jpg)
-![Console Error]{Console.jpg] 
+
+![Console Error](Console.jpg)
 
 
 
