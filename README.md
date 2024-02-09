@@ -2,6 +2,7 @@ BUG REPORT =
 API Key was successfully created but the map was not opening 
 When I went to the ArcGIS developer’s website, I created a new API key 
 (API.jpg)
+![API][API.jpg]
  
 Steps to produce- 
 1.	Login to ArcGIS developer’s website
